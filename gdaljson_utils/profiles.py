@@ -156,7 +156,7 @@ class Overview():
         return opts
 
     def get_resolution(self):
-        if self.data.srs.is_geographic:
+        if self.data.is_geographic:
             extent = self.data.extent
             left = (extent[0], (extent[2]+extent[3])/2)
             right = (extent[1], (extent[2]+extent[3])/2)
