@@ -5,7 +5,7 @@ from xmljson import badgerfish as bf
 def to_file(vrt, outfile, profile=None):
     ds = to_gdal(vrt)
     if profile:
-        p = profile(self)
+        p = profile(vrt)
         pname = type(p).__name__.upper()
 
         if 'COG' in pname:
