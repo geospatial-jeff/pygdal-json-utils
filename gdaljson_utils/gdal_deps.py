@@ -1,6 +1,6 @@
 from osgeo import gdal
 import xml.etree.ElementTree as ET
-from xmljson import badgerfish as bf
+from xmljsonfork import badgerfish as bf
 
 def to_file(vrt, outfile, profile=None):
     ds = to_gdal(vrt)
