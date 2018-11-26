@@ -1,3 +1,2 @@
 haversine==1.0.2
 GDAL>=2.3.0
-xmljson==0.1.9
