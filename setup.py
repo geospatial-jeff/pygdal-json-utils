@@ -12,5 +12,4 @@ setup(
     author_email='geospatialjeff@gmail.com',
     packages=find_packages(),
     install_requires = requirements,
-    dependency_links=['git+https://github.com/geospatial-jeff/xmljson.git@master#egg=xmljson-0.1.9']
 )
